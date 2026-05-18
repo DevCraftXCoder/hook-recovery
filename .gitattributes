@@ -1,0 +1,7 @@
+# Force LF everywhere so hooks work on macOS/Linux/Windows Git Bash
+* text=auto eol=lf
+*.cjs text eol=lf
+*.js text eol=lf
+*.sh text eol=lf
+*.json text eol=lf
+*.md text eol=lf
