@@ -1,4 +1,4 @@
-# claude-code-hook-recovery
+# hook-recovery
 
 > Recovery hooks and diagnostic tools for Claude Code — fixes for Write/Edit stuck loops,
 > re-read advisory traps, and post-compact unblock.
@@ -32,8 +32,8 @@ Claude Code uses hooks to enforce good habits: don't re-read files you already h
 ### Option 1: Install script (recommended)
 
 ```sh
-git clone https://github.com/DevCraftXCoder/claude-code-hook-recovery.git
-cd claude-code-hook-recovery
+git clone https://github.com/DevCraftXCoder/hook-recovery.git
+cd hook-recovery
 sh scripts/install.sh
 ```
 

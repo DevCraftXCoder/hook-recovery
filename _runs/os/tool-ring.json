@@ -1,0 +1,10 @@
+{"tool":"Bash","ts":1779105260725,"command":"cd \"C:/Projects/claude-code-hooks\" && git add hooks/ && git diff --cached --stat"}
+{"tool":"Bash","ts":1779105276772,"command":"cd \"C:/Projects/claude-code-hooks\" && git commit -m \"feat(hooks): add sanitized token-guard, write-confirm, hookify-prompt\" && git push"}
+{"tool":"Bash","ts":1779106052590,"command":"cd \"C:/Projects/claude-code-hooks\" && git remote set-url origin https://github.com/DevCraftXCoder/hook-recovery.git && git remote -v"}
+{"tool":"Read","ts":1779106056179,"filePath":"C:\\Projects\\claude-code-hooks\\package.json"}
+{"tool":"Edit","ts":1779106059753,"filePath":"C:\\Projects\\claude-code-hooks\\package.json"}
+{"tool":"Bash","ts":1779106072456,"command":"cd \"C:/Projects/claude-code-hooks\" && grep -n \"claude-code-hook-recovery\" README.md | head -20"}
+{"tool":"Read","ts":1779106075476,"filePath":"C:\\Projects\\claude-code-hooks\\README.md"}
+{"tool":"Bash","ts":1779106091019,"command":"cd \"C:/Projects/claude-code-hooks\" && sed -i 's/claude-code-hook-recovery/hook-recovery/g' README.md CHANGELOG.md && grep -n \"hook-recovery\\|claude-code-hook\" README.md | head -10"}
+{"tool":"Bash","ts":1779106106332,"command":"cd \"C:/Projects/claude-code-hooks\" && grep -rn \"claude-code-hook-recovery\" . --include=\"*.cjs\" --include=\"*.md\" --include=\"*.json\" --include=\"*.sh\" | grep -v \".git\""}
+{"tool":"Bash","ts":1779106132698,"command":"cd \"C:/Projects/claude-code-hooks\" && sed -i 's/claude-code-hook-recovery/hook-recovery/g' diagnose.cjs test/run.cjs"}

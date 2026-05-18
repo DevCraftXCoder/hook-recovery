@@ -188,7 +188,7 @@ function stateFileSnippet(existingValue) {
 // ---------------------------------------------------------------------------
 
 async function main() {
-  process.stdout.write('claude-code-hook-recovery diagnose\n');
+  process.stdout.write('hook-recovery diagnose\n');
   process.stdout.write('==================================\n\n');
 
   // --- 1. Find settings file ---

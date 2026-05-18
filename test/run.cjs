@@ -1,4 +1,4 @@
-// run.cjs — test suite for claude-code-hook-recovery hooks
+// run.cjs — test suite for hook-recovery hooks
 // Pure Node.js, no dependencies, CommonJS.
 // Run: node test/run.cjs
 
@@ -113,7 +113,7 @@ function section(title, count) {
 // ---------------------------------------------------------------------------
 
 async function main() {
-  console.log('claude-code-hook-recovery test suite');
+  console.log('hook-recovery test suite');
   console.log('=====================================');
 
   // -------------------------------------------------------------------------
