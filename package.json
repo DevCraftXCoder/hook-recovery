@@ -1,7 +1,7 @@
 {
   "name": "hook-recovery",
-  "version": "1.0.0",
-  "description": "Recovery hooks and diagnostic tools for Claude Code — fixes for Write/Edit stuck loops, re-read advisory traps, and post-compact unblock",
+  "version": "1.1.0",
+  "description": "Recovery hooks and diagnostic tools for Claude Code — fixes for Write/Edit stuck loops, re-read advisory traps, post-compact unblock, and a code-level pattern scanner for stdout/stderr misuse and exit-code violations",
   "main": "diagnose.cjs",
   "scripts": {
     "test": "node test/run.cjs",
